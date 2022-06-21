@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+header{
+    background-color: #1f2937;
+    display: flex;
+    height: 75px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h3{
+    width: 35%;
+    color: #f9faf8;
+    font-size: 26px;
+}
+
+nav{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+a{
+    margin: 20px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#heroMain{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+#heroMain > div{
+    width: 35%;
+}
+
+#heroMain > div > h1{
+    margin-right: 175px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
+#heroMain > div > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#placeholder{
+    background-color: rgb(103, 106, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 35%;
+}
+
+#placeholder > p{
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+#heroMain > div > button{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#photoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+#photoSection > h2{
+    margin: 50px;
+    color: #1f2937;
+    font-weight: extra-bold;
+    font-size: 36px;
+}
+
+#photoSection > div{
+    margin: 50px;
+    margin-top: 0px;
+    display: flex;
+    width: 60%;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo > p{
+    margin: 15px;
+    color: #78797a;
+    font-size: 18px;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+#quoteSection{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+#quote{
+    margin: 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    width: 50%;
+}
+
+#author{
+    margin-right: 50px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #1f2937;
+    width: 50%;
+    text-align: end;
+}
+
+
+#signSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+#action{
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 60%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    width: 70%;
+}
+
+#content > h3{
+    color: #f9faf8;
+    font-size: 28px;
+}
+
+#content > p, footer > p{
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+#action> button{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #1f2937;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
